@@ -30,7 +30,7 @@ model = RandomForestClassifier()
 model.fit(X_train, y_train)
 
 # Save Model
-joblib.dump(model, "diabetes_model.pkl")
+joblib.dump(model, "save_model.pkl")
 
 # Save Scaler
 joblib.dump(scaler, "scaler.pkl")
