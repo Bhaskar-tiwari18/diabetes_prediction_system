@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # ---------------- LOAD MODEL ----------------
-model = joblib.load("model.pkl")
+model = joblib.load("save_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
 # ---------------- CREATE USER FILE ----------------
